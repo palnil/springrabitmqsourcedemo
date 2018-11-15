@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "RabbitMQCollection",
+		"_postman_id": "17bfb27b-3f63-9534-0dd2-cea168e54d0c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/post",
+			"request": {
+				"url": "http://localhost:8081/post",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"info\":\"hello from Source !!\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
