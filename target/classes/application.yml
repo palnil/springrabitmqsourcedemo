@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    stream:
+      defaultBinder: rabbit
+      bindings:
+        single-message:
+          destination: single.message.topic
+          contentType: application/json
+          group: amqp-sink
