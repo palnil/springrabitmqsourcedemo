@@ -9,7 +9,7 @@ public interface PersonSource {
     String SINGLE_MESSAGE = "single-message";
 
     @Output(PersonSource.SINGLE_MESSAGE)
-    MessageChannel singleGrapeChannel();
+    MessageChannel userMessageChannel();
 
 
 }

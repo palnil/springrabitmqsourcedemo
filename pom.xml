@@ -129,6 +129,12 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+
+        <repository>
+            <id>maven-public</id>
+            <url>http://localhost:8081/repository/maven-public/</url>
+
+        </repository>
     </repositories>
 
 
