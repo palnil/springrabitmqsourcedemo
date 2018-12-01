@@ -2,3 +2,5 @@
 .project
 .settings/
 target/
+.idea/
+spring-rabbitmq-source-demo.iml
